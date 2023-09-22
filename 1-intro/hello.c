@@ -2,9 +2,10 @@
 #include <math.h>
 
 int main() {
-    // int(input()) + input()
+    int x;
     // scanf("%i", &x); // i == int, d == decimal
     // scanf("%lf", &x); // lf == long float == double
-    printf("%lf", cos(1.0/2.0));
+    x = cos(1.0/2.0);
+    printf("%lf", x);
     return 0;
 }
