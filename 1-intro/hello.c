@@ -6,6 +6,6 @@ int main() {
     // scanf("%i", &x); // i == int, d == decimal
     // scanf("%lf", &x); // lf == long float == double
     x = cos(1.0/2.0);
-    printf("%lf", x);
+    printf("%d", x);
     return 0;
 }
