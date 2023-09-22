@@ -10,7 +10,7 @@ int main() {
     // Вычисляем сумму y:
     double y = 0;
     for (int i = 1; i <= n; i++) {
-        y = y + (n - i) * cos(i*x);
+        y += (n - i - 1) * cos(x * i);
     }
     // Выводим результат:
     printf("%lf\n", y);
